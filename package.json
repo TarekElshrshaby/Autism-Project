@@ -1,16 +1,29 @@
+// {
+//   "name": "routefinalproject",
+//   "private": true,
+//   "version": "0.0.0",
+//   "type": "module",
+//   "scripts": {
+//     "dev": "vite",
+//     "build": "vite build",
+//     "lint": "eslint .",
+//     "preview": "vite preview"
+//   },
 {
   "name": "routefinalproject",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://TarekElshrshaby.github.io/Autism-Project",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "homepage":"https://TarekElshrshaby.githup.io/Autism-Project",
     "@chatscope/chat-ui-kit-react": "^2.0.3",
     "@fontsource-variable/cairo": "^5.1.1",
     "@fontsource/cairo": "^5.1.1",
@@ -42,10 +55,6 @@
     "swiper": "^11.2.1",
     "yup": "^1.4.0"
   },
-  "scripts" {
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build"
-  },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@types/react": "^18.3.12",
@@ -62,5 +71,4 @@
     "vite": "^5.4.10"
   },
   "proxy": "https://localhost:5000"
-
 }
