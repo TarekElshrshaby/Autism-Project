@@ -19,7 +19,7 @@ import ChatbotPage from "./pages/ChatbotPage/ChatbotPage";
 import {MainContainer , ChatContainer , MessageList , Message , MessageInput , TypingIndicator} from "@chatscope/chat-ui-kit-react"
 import DiagnosticQuestions from "./pages/DiagnosticPage/Diagnostic";
 import Support from "./pages/Checkout/Checkout";
-import Opinion from "./pages/opinion/opinion";
+import Opinion from "./pages/Opinion/Opinion";
 import CategoryOne from "./components/CategoryOne/CategoryOne"
 import ReportComponent from "./components/report/report";
 import CategoryThree from "./components/CategoryThree/CategoryThree";

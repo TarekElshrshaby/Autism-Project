@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "homepage":"https://TarekElshrshaby.githup.io/Autism-Project",
     "@chatscope/chat-ui-kit-react": "^2.0.3",
     "@fontsource-variable/cairo": "^5.1.1",
     "@fontsource/cairo": "^5.1.1",
@@ -26,6 +27,7 @@
     "dotenv": "^16.4.7",
     "emailjs-com": "^3.2.0",
     "formik": "^2.4.6",
+    "gh-pages": "^6.3.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.1",
     "jwt-decode": "^4.0.0",
@@ -39,6 +41,10 @@
     "react-toastify": "^11.0.5",
     "swiper": "^11.2.1",
     "yup": "^1.4.0"
+  },
+  "scripts" {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
@@ -56,4 +62,5 @@
     "vite": "^5.4.10"
   },
   "proxy": "https://localhost:5000"
+
 }
