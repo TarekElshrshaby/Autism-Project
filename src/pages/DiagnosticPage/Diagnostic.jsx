@@ -68,7 +68,7 @@ function ChildForm() {
 
   return (
     <div className="relative flex flex-col items-center min-h-screen bg-gray-50 font-Cairo py-10 px-10">
-      <Toaster position="top-center" />
+      {/* خلفية الصورة */}
       <div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
@@ -77,6 +77,7 @@ function ChildForm() {
         }}
       ></div>
 
+      {/* المحتوى فوق الخلفية */}
       <div className="relative z-10 w-full max-w-3xl">
         <h1 className="text-4xl font-bold text-center text-primary-50 mb-3">التشخيص</h1>
         <p className="text-gray-600 mb-12 text-lg text-center">أجب على جميع الأسئلة لضمان دقة النتيجة</p>
@@ -134,7 +135,6 @@ function ChildForm() {
                 accept="image/*"
                 onChange={(e) => setImage(e.target.files[0])}
                 className="hidden"
-                required
               />
             </label>
           </div>
@@ -177,4 +177,3 @@ function ChildForm() {
 }
 
 export default ChildForm;
-

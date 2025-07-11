@@ -74,7 +74,7 @@ function CategoryFive() {
           },
         }
       );
-      toast.success('تم إرسال الإجابات بنجاح!');
+      toast.success('تم إرسال الإجابات بنجاح ');
       setTimeout(() => {
         navigate('/report');
         window.scrollTo({ top: 0, behavior: 'instant' }); 

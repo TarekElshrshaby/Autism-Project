@@ -194,7 +194,8 @@ export default function Signup() {
           >
             إنشاء حساب
           </button>
-        </form>    
+        </form>
+    
 
         {/* لديك حساب بالفعل */}
         <p className="text-center text-gray-500 mt-6">
