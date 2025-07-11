@@ -3,6 +3,8 @@ import html2canvas from 'html2canvas';
 import { Toaster, toast } from 'react-hot-toast';
 import React, { useRef, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Autismlogo from "../../../images/gradLogo1.png";
+
 
 
 const MyChildren = () => {
@@ -154,9 +156,9 @@ const MyChildren = () => {
       
       <div ref={reportRef} className="max-w-2xl mx-auto bg-white p-6 rounded-2xl border border-primary-50 shadow-md text-right">
         <div className="border-b pb-4 mb-4 flex items-center justify-between">
-          <img src="../../../images/gradLogo1.png" alt="Logo" className="w-16 h-16 object-contain bg-primary-50" />
+          <img src={Autismlogo} alt="Logo" className="w-16 h-16 object-contain bg-primary-50" />
           <h1 className="text-3xl font-bold text-primary-100">نتائج الاختبار</h1>
-          <h2 className="text-lg font-semibold text-[#000000]">21 فبراير 2025</h2>
+          <h2 className="text-lg font-semibold text-[#000000]">14 يوليو 2025</h2>
         </div>
 
         <div className="mb-6">
