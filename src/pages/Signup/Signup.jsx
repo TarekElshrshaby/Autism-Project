@@ -194,23 +194,7 @@ export default function Signup() {
           >
             إنشاء حساب
           </button>
-        </form>
-
-        {/* تسجيل الدخول عبر الشبكات الاجتماعية */}
-        <div className="text-center mt-6">
-          <p className="text-gray-500">أو</p>
-          <div className="flex justify-center space-x-4 mt-2 rtl:space-x-reverse">
-            <button className="bg-gray-100 p-3 rounded-full text-blue-600 hover:bg-gray-200 transition">
-              <FontAwesomeIcon icon={faFacebook} size="lg" />
-            </button>
-            <button className="bg-gray-100 p-3 rounded-full text-red-600 hover:bg-gray-200 transition">
-              <FontAwesomeIcon icon={faGoogle} size="lg" />
-            </button>
-            <button className="bg-gray-100 p-3 rounded-full text-black hover:bg-gray-200 transition">
-              <FontAwesomeIcon icon={faApple} size="lg" />
-            </button>
-          </div>
-        </div>
+        </form>    
 
         {/* لديك حساب بالفعل */}
         <p className="text-center text-gray-500 mt-6">
