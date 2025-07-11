@@ -175,8 +175,8 @@ const MyChildren = () => {
             <li className="border-b py-2 border-gray-500 font-semibold">النوع : <span className='text-primary-100'>{children[0].gender}</span></li>
             <li className="border-b py-2 border-gray-500 flex items-center gap-2 font-semibold">
               <span>الصورة :</span>
-              <img className="w-12 h-12 object-contain" src={`../../../images/${imageName}`} alt="Child Image" />
-            </li>
+              <img className="w-12 h-12 object-contain" src={localStorage.getItem("child_image")} alt="Child Image" />
+              </li>
             <li className="border-b py-2 border-gray-500 font-semibold">السلوكيات التكرارية أو المقيدة: <span className='text-primary-100'>%{categoryPercentages[1]?.toFixed(2)}</span></li>
             <li className="border-b py-2 border-gray-500 font-semibold">التفاعل الاجتماعي: <span className='text-primary-100'>%{categoryPercentages[2]?.toFixed(1)}</span></li>
             <li className="border-b py-2 border-gray-500 font-semibold">التواصل اللفظي والغير لفظي: <span className='text-primary-100'>%{categoryPercentages[3]?.toFixed(1)}</span></li>
